@@ -1,0 +1,52 @@
+
+
+
+
+
+.container{
+    max-width: 1550px;
+    width: 100%;
+}
+.parent{
+    display: flex;
+    gap:150px;
+}
+.section1{
+   
+    margin-top: 150px;
+}
+.section1 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.section1 img{
+    transition: 0.3s ease-in-out;
+    margin-top: 80px;
+   
+}
+.section2{
+    margin-top: 150px;
+    width: 500px;
+    
+    line-height: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color: blue;
+    font-family: none;
+}
+.sper{
+    font-size: 20px;
+    width: 400px;
+    height: 200px;
+    padding-left: 50px;
+    padding-top: 20px;
+    border: 4px solid;
+
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.sper:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}

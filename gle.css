@@ -1,0 +1,44 @@
+
+
+
+
+/* .container{
+
+
+max-width: 1550px;
+width: 100%;
+} */
+.mother{
+    display: flex;
+     gap: 80px;
+}
+.header{
+    width:600px;
+    flex-wrap: wrap;
+    gap: 40px;
+    display: flex;
+   
+    
+}
+.header  img{
+    border-radius: 25px;
+}
+.header img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.header img{
+    transition: 0.3s ease-in-out;
+   
+   
+}
+.gle{
+    width: 500px;
+    
+    margin-left: 150px;
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    transition: 1s;
+    
+}

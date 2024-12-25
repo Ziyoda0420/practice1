@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Archivo Black", serif;
+}
+
+
+.container{
+    max-width: 1550px;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 80px;
+   
+    background-color: black;
+
+}
+.logo{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.head_nav {
+    display: flex;
+    gap: 70px;
+    margin-left: 750px;
+   position: relative;
+   bottom: 60px;
+}
+.head_nav a{
+    font-size: 18px;
+    color: white;
+   position: relative;
+   top: 10px;
+    
+}
+.head_nav img{
+    padding-right: 150px;
+}
+
+.head_nav li{
+    width: 150px;
+    height: 50px;
+    
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    transition: 0.5s;
+}
+.head_nav li:hover{
+    background-color: rgba(86, 51, 51, 0.582) ;
+    color: black;
+}
+.mainer{
+    background:url(sinity.jpg)no-repeat center/cover;
+    height: 644px;
+    
+}
+.mainer p{
+    color: white;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-left: 200px;
+    color: black;
+    transform: scale(1,1);
+    transition: all 0.8s ease 0s;
+
+}
+
+.parent{
+    display:flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+
+}
+.about{
+    padding-top: 100px;
+    width:600px;
+    height:500px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    margin-left: 650px;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.maybach{
+    margin-left: 70px;
+    margin-top: 80px;
+    display: flex;
+    gap: 100px;
+   
+}
+.may_n{
+    width: 500px;
+    
+}
+.may_n h2{
+    margin-top:120px;
+}
+.may_n p{
+    margin-top: 50px;
+    line-height: 30px;
+    font-family: none;
+}
+
+
+.may img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.may img{
+    transition: 0.3s ease-in-out;
+    margin-top: 80px;
+   
+}
+
+.cotegory:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.cotegory{
+    transition: 0.3s ease-in-out;
+    margin-top: 80px;
+   
+}
+.cotegory{
+    width: 350px;
+    height: 350px;
+   
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(102, 69, 69, 0.215);
+}
+.cotegory p{
+   padding-left: 20px;
+   padding-top: 30px;
+   font-size: 20px;
+}
+.three{
+    display: flex;
+    gap: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+.cote{
+    width: 100px;
+    height: 50px;
+   
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-left: 15px;
+    color: black;
+    background-color: cadetblue;
+}
+h3,h4{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h4{
+    color: blue;
+}
+iframe{
+    width: 1250px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+   margin-top: 80px;
+    background-color:  rgba(102, 69, 69, 0.215) ;
+
+}
+h5{
+    font-size: 18px;
+    margin-left: 950px;
+    padding-top:30px;
+}
+.number{
+    position: relative;
+    bottom: 10px;
+}
+.number p{
+    margin-left: 1100px;
+    position: relative;
+    bottom:55px;
+}
+.number p:hover{
+    color: blue;
+}
+.input{
+    width:100px;
+    border-radius:10px;
+    background-color: black;
+    height:40px;
+    position: absolute;
+    top: 1940px;
+    left: 780px;
+    
+}
+.input:hover{
+    background-color: azure;
+    
+}
+
+.input a{
+color: white;
+position: absolute;
+top: 5px;
+left: 15px;
+}
+.input a:hover{
+    color: black;
+}
+
+
+
+
